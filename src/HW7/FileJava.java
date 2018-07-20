@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class FileJava extends SimpleFileVisitor<Path> {
 
-	static int maxDepth = 6;
+	static int maxDepth = 11;
 
 	static void showMeStream() throws IOException {
 		Path start = Paths.get("C:\\Users\\Виталий\\eclipse-workspace");
